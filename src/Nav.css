@@ -22,4 +22,5 @@
   right: 20px;
   object-fit: contain;
   width: 25px;
+  cursor: pointer;
 }

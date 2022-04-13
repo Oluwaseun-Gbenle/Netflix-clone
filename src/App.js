@@ -10,7 +10,7 @@ function App() {
       
 <Nav />
 <Banner/>
-
+      
       <Row title = "NETFLIX ORIGINALS" fetchUrl={request.fetchNetflixOriginals} isLargeRow/>
       <Row title = "Trending now" fetchUrl={request.fetchTrending}/>
       <Row title = "Top Rated" fetchUrl={request.fetchTopRated}/>
