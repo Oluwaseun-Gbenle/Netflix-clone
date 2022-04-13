@@ -1,5 +1,5 @@
 import "./Profile.css"
-import Nav from './Nav'
+import Nav from './components/Nav'
 import { selectUser } from './slices/userSlice'
 import { useSelector } from 'react-redux'
 import { auth } from './firebase'

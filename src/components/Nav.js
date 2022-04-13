@@ -2,7 +2,7 @@ import React,{useState, useEffect} from 'react'
 import "./Nav.css";
 import { useNavigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
-import { selectUser } from './slices/userSlice';
+import { selectUser } from '../slices/userSlice';
 
 
 
