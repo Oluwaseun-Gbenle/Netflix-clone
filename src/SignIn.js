@@ -36,6 +36,7 @@ function SignIn() {
          passwordRef.current.value
         ).then((authUser)=>{
         console.log(authUser)
+        navigate("/App")
         }).catch(err => {
             alert(err.message)
         })
