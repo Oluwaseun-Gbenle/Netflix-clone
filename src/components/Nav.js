@@ -10,7 +10,7 @@ function Nav() {
    const user = useSelector(selectUser)
     const navigate = useNavigate();
     const[show, handleShow] = useState(false);
-    const navigation = () => user ? navigate("/Profile") : navigate("/")
+    const navigation = () => user ? navigate("/Profile") : navigate("*")
 
 useEffect(() => {
     window.addEventListener("scroll",()=>{

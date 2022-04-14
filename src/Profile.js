@@ -12,12 +12,12 @@ function Profile() {
 
     const signOut = () => {
         auth.signOut()
-        navigate("/")
+        navigate("*")
     }
     
     
      if (!user) {
-        return <Navigate to="/" replace />;
+        return <Navigate to="*" replace />;
       }  
   return (
     <div className="profile">
